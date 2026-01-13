@@ -13,13 +13,13 @@ export const HeroSection = () => {
       <div className="max-w-7xl mx-auto w-full">
         
         {/* Main Title - Experimental Typography */}
-        <div className="relative mb-16">
-          <div className={`transition-all duration-1000 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
-            <h1 className="font-primary font-black leading-none">
-              <div className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tightest mb-4">
+        <div className="relative mb-10 sm:mb-14 md:mb-16">
+          <div className={`transition-all duration-1000 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}>
+            <h1 className="font-primary font-black leading-[0.9] sm:leading-none">
+              <div className="text-[2.8rem] sm:text-6xl md:text-7xl lg:text-9xl tracking-tight mb-2 sm:mb-4">
                 PRABHMEHAR
               </div>
-              <div className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tightest text-outline">
+              <div className="text-[2.6rem] sm:text-6xl md:text-7xl lg:text-9xl tracking-tight text-outline">
                 DHALIO
               </div>
             </h1>
