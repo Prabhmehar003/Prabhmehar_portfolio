@@ -82,9 +82,9 @@ export const AboutSection = () => {
         </div>
 
         {/* Technical Arsenal */}
-        <div className="mt-14 sm:mt-20 mb-14 sm:mb-20">
-          <div className="text-center mb-8 sm:mb-12 px-4">
-            <h3 className="text-3xl sm:text-4x1 md:text-5x1 font-black mb-2 sm:mb-4 leading-tight">PROFESSIONAL SKILLSET</h3>
+        <div className="mt-16 sm:mt-20 mb-16 sm:mb-20">
+          <div className="text-center mb-10 sm:mb-14 px-4">
+            <h3 className="text-[2.4rem] sm:text-4x1 md:text-5x1 font-black mb-3 sm:mb-4 leading-[1.05] tracking-tight">PROFESSIONAL SKILLSET</h3>
             <div className="font-mono text-sm sm:text-base md:text-lg tracking wide sm:tracking-wider opacity-60">Technologies I Work With</div>
           </div>
           
