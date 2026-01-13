@@ -39,11 +39,11 @@ export const SkillsSection = () => {
       <div className="max-w-7xl mx-auto">
         
         {/* Header with Inverted Colors */}
-        <div className="mb-20 text-center">
-          <h2 className="text-7xl font-black leading-none mb-8 text-outline" style={{ WebkitTextStroke: '2px white' }}>
+        <div className="mb-24 sm:mb-20 text-center px-4 sm:px-0">
+          <h2 className=" text-[2.4rem] sm:text-6xl lg:text-7xl font-black leading-[1.05] mb-6 sm:mb-8 text-outline" style={{ WebkitTextStroke: '2px white' }}>
             PROFESSIONAL SKILLSET
           </h2>
-          <div className="font-mono text-lg tracking-widest opacity-60">
+          <div className="font-mono text-lg tracking-wider sm:tracking-widest opacity-60">
             TECHNICAL MASTERY THROUGH OBSESSIVE PRACTICE
           </div>
         </div>
