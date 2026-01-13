@@ -68,8 +68,8 @@ export const HeroSection = () => {
 
         {/* Experimental Text Art */}
         <div className={`transition-all duration-1000 delay-1000 ${isLoaded ? 'scale-100 opacity-100' : 'scale-95 opacity-0'}`}>
-          <div className="relative flex flex-col items-center">
-            <pre className="font-mono text-xs leading-none text-center opacity-40">
+          <div className="relative flex flex-col items-center overflow-x-auto px-4">
+            <pre className="font-mono text-[6px] sm:text-[8px] md:text-xs leading-none text-center opacity-40 whitespace-pre scale-90 sm:scale-100">
 {`
  █████╗   ███╗   ██╗   █████╗  ██╗     ██╗   ██╗  ███████╗ ████████╗
 ██╔══██╗  ████╗  ██║  ██╔══██╗ ██║     ██║   ██║  ██╔════╝ ╚══██╔══╝
