@@ -17,7 +17,7 @@ export const AboutSection = () => {
             
             <div className="space-y-8">
               <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-light leading-relaxed max-w-md pr-200">
-                I buid data driven solutions using Power BI, SQL and AWS to turn raw data into meaningful business insights.
+                I build data driven solutions using Power BI, SQL and AWS to turn raw data into meaningful business insights.
               </div>
               <div className="w-24 h-1 bg-foreground"></div>
             </div>
